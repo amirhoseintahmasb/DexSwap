@@ -1,0 +1,42 @@
+[
+
+	{
+		"from": "0xCD05298b3eBba317153372a65d4082E1e8AC056A",
+		"topic": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+		"event": "Approval",
+		"args": {
+			"0": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"1": "0xb0956C343dA97F361D94D1759a8eDA55a7Fc4675",
+			"2": "4313233",
+			"owner": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"spender": "0xb0956C343dA97F361D94D1759a8eDA55a7Fc4675",
+			"value": "4313233"
+		}
+	},
+	{
+		"from": "0xCD05298b3eBba317153372a65d4082E1e8AC056A",
+		"topic": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+		"event": "Approval",
+		"args": {
+			"0": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"1": "0xb0956C343dA97F361D94D1759a8eDA55a7Fc4675",
+			"2": "0",
+			"owner": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"spender": "0xb0956C343dA97F361D94D1759a8eDA55a7Fc4675",
+			"value": "0"
+		}
+	},
+	{
+		"from": "0xCD05298b3eBba317153372a65d4082E1e8AC056A",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"1": "0x9d5306D38aeCFDEFd6ec70b93074d935015d4b24",
+			"2": "4313233",
+			"from": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+			"to": "0x9d5306D38aeCFDEFd6ec70b93074d935015d4b24",
+			"value": "4313233"
+		}
+	}
+]

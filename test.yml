@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+node:
+  container_name: ${NAME}
+  build:
+    context: .
+    args:
+      identity_arg: ${NAME}
+      rpcport_arg: ${PORT}
+      peer_arg: ${PEER}
+  tty: true
+  dns:
+    - 10.100.0.67
+    - 10.100.0.66
+    - 8.8.8.8
+  stdin_open: true
+  ports:
+    - 8549:8549
+  networks:
+    - private-node
+networks:
+private-node:
+  driver: bridge

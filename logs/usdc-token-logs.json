@@ -1,0 +1,15 @@
+[
+  {
+    "from": "0x267cFd2D1149DaA66287269Cdd34B12462a34864",
+    "topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "event": "Transfer",
+    "args": {
+      "0": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+      "1": "0x20FA7Cb563Ffa613541ec264224F1506fa51EBAf",
+      "2": "9893049",
+      "from": "0xE743B7a166DC418eBCa126A56a36f4C4Afc05B95",
+      "to": "0x20FA7Cb563Ffa613541ec264224F1506fa51EBAf",
+      "value": "9893049"
+    }
+  }
+]
